@@ -1,0 +1,116 @@
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #6a38c2, #4a2a9a);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Dark Mode */
+  .header-container.dark {
+    background: #1e1e1e;
+    color: #f5f5f5;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .logo:hover {
+    color: #ddd;
+  }
+  
+  /* Theme Toggle */
+  .theme-toggle {
+    width: 50px;
+    height: 25px;
+    background: #ddd;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .theme-toggle:hover {
+    background: #ccc;
+  }
+  
+  .toggle-circle {
+    width: 22px;
+    height: 22px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .toggle-icon {
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6a38c2;
+  }
+  
+  .toggle-dark {
+    left: 25px;
+    background: #222;
+  }
+  
+  /* Cart Icon */
+  .cart-container {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .cart-icon {
+    font-size: 28px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cart-container:hover .cart-icon {
+    transform: scale(1.1);
+  }
+  
+  /* Cart Badge */
+  .cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    animation: pop 0.3s ease-in-out;
+  }
+  
+  /* Badge Animation */
+  @keyframes pop {
+    0% {
+      transform: scale(0.8);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
