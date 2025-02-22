@@ -5,7 +5,7 @@
 ---
 
 ## Introduction
-The Fake Store Project is a fictional online store built using React and LocalStorage. This project aims to create a responsive user interface with authentication and authorization features, a shopping cart functionality, and data storage using Local Storage.
+The My Store Project is a fictional online store built using React and LocalStorage. This project aims to create a responsive user interface with authentication and authorization features, a shopping cart functionality, and data storage using Local Storage.
 
 ## Project Objectives
 The objectives of this project are as follows:
@@ -34,10 +34,14 @@ The project structure is as follows:
 - `src/`
   - `components/`: Contains reusable UI components.
   - `pages/`: Includes pages to display and operate content.
+ 
+## How to run?
+   - npm install
+   - npm start
 
 
 ## Conclusion
-The Fake Store Project provides an opportunity to build a fictional online store using. It aims to create a responsive user interface, implement authentication and authorization, integrate a shopping cart.
+The My Store Project provides an opportunity to build a fictional online store using. It aims to create a responsive user interface, implement authentication and authorization, integrate a shopping cart.
 
 
 [Back to top](#fake-store-project)
